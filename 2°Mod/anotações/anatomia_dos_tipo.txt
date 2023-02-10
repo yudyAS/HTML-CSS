@@ -1,0 +1,17 @@
+			Anatomia do tipo 
+
+*Categoria de fontes.
+
+->Serifadas = possuem serifa.
+
+->Sans-Serifa = não possuem serifa.
+
+->Monoespaçadas = apenas um espaço ou um tamanho para 
+todas as letras.
+
+->Handwriting = simula a escritura a mão.
+
+->display = não obedeçe nenhuma das características 
+acima, ou ela nao tem nada em quesito de regra de 
+tamanho e espaço ou ela tem pouco. Não se preocupa 
+seguir nenhuma regra anatómica

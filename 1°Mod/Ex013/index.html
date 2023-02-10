@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>                
+</head>
+<body>
+    
+    <h1>Usando links externos</h1>
+    <!--
+        Tag a = vem de Âncora
+        href = Referência Hipertexto
+    -->
+    <p>Você pode acessar meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório publico no Github</a></p>
+
+    <p>Você também pode acessar meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube.</a></p>
+
+    <p>Teste link do <a href="https://youtube.com">YouTube</a></p>
+
+    <h1>Usando links internos</h1>
+
+    <!-- _self = na propria página -->
+    <p>Esta é a primeira página do meu site. Se você quiser, pode acessar também minha <a href="pag02.html" target="_self" rel="next">segunda página.</a></p>
+
+    <p>Você também pode acessar minha <a href="noticias/pag003.html" target="_self" rel="next">pagina de notícias</a>.</p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <!--Link para dos media types de cada arquivo = https://www.iana.org/assignments/media-types-->
+
+        <li><a href="livro/02 - Como funciona a Internet.pdf" download="02 - Como funciona a Internet.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/teste.zip" download="teste.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+
+
+
+</body>
+</html>
