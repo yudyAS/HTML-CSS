@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body{
+            height: 96vh;
+            /*
+            background-color: black;
+            background-image: url('imagens/wallpaper003.jpg');
+            background-position: center center;
+            background-repeat: repeat-y;
+            background-size: auto;
+            background-attachment: fixed;
+            */
+                         
+            /*attachment = Vai fixar a imagem no fundo mesmo que a pagina tenha rolagem*/
+
+            /*Shorthand - background
+            color > image > position > repeat > [size] > attachment
+
+            O size ainda não funciona na Shorthand
+            */
+
+            background: black url('imagens/wallpaper003.jpg') center center repeat-y fixed;
+            background-size: cover;
+           
+        }
+        main{
+            background-color: white;
+            max-width: 500px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dignissimos magni fugiat odit! Sunt, voluptatum? Iste provident ratione adipisci minima accusamus quo, harum iusto, possimus maiores fugiat, tempora quidem consequuntur!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ducimus, accusamus, quis perspiciatis eum tenetur facilis porro expedita quam voluptatem voluptates repudiandae ipsam maiores amet totam molestias sit cumque corrupti.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor illum quam corrupti. Facilis rerum similique cum rem laboriosam modi, corrupti alias fuga sapiente iure, accusamus temporibus porro, facere repellendus? Nam!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corporis dolorem, officiis id quam dolores eveniet inventore maxime minus atque perferendis et similique, fugiat ad quo aspernatur reprehenderit ipsa eligendi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente vitae, debitis officia, dolorum ipsa laborum at libero quaerat expedita facilis iure itaque rerum! Labore tempore fugiat quos asperiores omnis eveniet.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus dolore, accusantium voluptas adipisci in pariatur soluta delectus minus, natus sequi saepe! Quasi quidem dolor quibusdam quis reiciendis tenetur illum pariatur?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dignissimos pariatur odit perferendis culpa labore vitae rerum sed, accusamus alias iure ipsa fuga! Nisi ratione explicabo mollitia, laboriosam fuga itaque?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eius debitis. Dicta esse quos adipisci non provident odit sint. Reprehenderit ullam ducimus fuga facilis aperiam ab veniam illum dignissimos voluptas.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel laborum sequi vitae placeat ducimus in officiis quibusdam sit. Accusamus sed assumenda, asperiores eos nihil dolor tempore cumque numquam nesciunt.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum veritatis, architecto corporis similique debitis voluptas quam atque nam dolor at natus sapiente libero consequatur sit unde. Quas tempora assumenda reiciendis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam vel ad enim omnis, ex nemo dolore vitae quasi officiis debitis. Natus mollitia sed minima doloremque fugiat ducimus magni. Laborum, veniam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consectetur magnam cupiditate consequuntur debitis, odit minima dolores. Nulla, iure commodi ullam ipsa repellendus sapiente ex officia illum sint eos error!
+        </p>
+    </main>
+    
+</body>
+</html>
